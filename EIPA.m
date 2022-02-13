@@ -63,6 +63,6 @@ spy(G)
 figure(2)
 for z = 1:9
     subplot(3,3,z)
-    t = squeeze(map(z,:,:));
-    surf(t)
+    l = squeeze(map(z,:,:));
+    surf(l)
 end
